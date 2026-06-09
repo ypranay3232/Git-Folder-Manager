@@ -4,7 +4,7 @@
   "displayName": "Git-Folder-Manager",
   "description": "Manage .gitkeep and .gitignore files",
   "version": "0.0.1",
-  "icon": "icon.jpg",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.120.0"
   },
