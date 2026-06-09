@@ -9,6 +9,13 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "git",
+    "gitkeep",
+    "gitignore",
+    "folder",
+    "workspace"
+  ],
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
