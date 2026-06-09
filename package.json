@@ -1,0 +1,48 @@
+{
+  "name": "git-folder-manager",
+  "displayName": "Git-Folder-Manager",
+  "description": "Manage .gitkeep and .gitignore files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "git-folder-manager.addGitKeep",
+        "title": "Git Folder Manager: Add GitKeep Files"
+      },
+      {
+        "command": "git-folder-manager.removeGitKeep",
+        "title": "Git Folder Manager: Remove Unused GitKeep Files"
+      },
+      {
+        "command": "git-folder-manager.generateGitIgnore",
+        "title": "Git Folder Manager: Generate .gitignore"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.19.20",
+    "@types/vscode": "^1.120.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
+  }
+}
