@@ -1,14 +1,20 @@
 {
   "name": "git-folder-manager",
+  "publisher": "buddytools",
   "displayName": "Git-Folder-Manager",
   "description": "Manage .gitkeep and .gitignore files",
   "version": "0.0.1",
+  "icon": "icon.jpg",
   "engines": {
     "vscode": "^1.120.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ypranay3232/Git-Folder-Manager"
+  },
   "keywords": [
     "git",
     "gitkeep",
